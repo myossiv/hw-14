@@ -1,0 +1,10 @@
+---
+- name: Create a file 
+  copy:
+    dest: "/tmp/test1.txt"
+    content: "Hello World!\n"
+
+- name: Deploy "Hello World!" to everyone
+  command: /usr/bin/wall /tmp/test1.txt
+
+        

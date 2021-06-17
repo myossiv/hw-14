@@ -1,0 +1,5 @@
+# Calling the Role common
+---
+- hosts: localhost
+  roles:
+    - role: '/etc/ansible/roles/common'

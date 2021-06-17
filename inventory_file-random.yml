@@ -1,0 +1,14 @@
+---
+managers:
+  hosts:
+    manager01:
+      ansible_host: 10.16.10.11
+    manager02:
+      ansible_host: 10.16.10.12
+
+workers:
+  hosts:
+    worker01:
+      ansible_host: 10.16.10.13
+    worker02:
+      ansible_host: 10.16.10.14

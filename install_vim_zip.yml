@@ -1,0 +1,11 @@
+---
+- hosts: localhost
+  tasks:
+     - name: Install vim 
+       package:
+         name: vim
+         state: present
+     - name: Install zip
+       package:
+         name: zip
+         state: present
