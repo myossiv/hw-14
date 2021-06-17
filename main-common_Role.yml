@@ -1,5 +1,4 @@
-# Ansible roles - Debian installations - DevOps 
-# Installing vim for Debian
+
 - name: Install vim 
   ansible.builtin.apt:
     name: "vim"
@@ -11,4 +10,3 @@
     name: "zip"
     state: present
 
-# tasks file for common
